@@ -1,4 +1,4 @@
-var animal = 'dog'
+var animal = 'cat'
 
 function myAnimal() {
   return animal
@@ -20,10 +20,10 @@ function add2(n) {
   //const two = 2
 }
 
-var funkyFunction = function() {
-  return function() {
+function funkyFunction() {
+  //return function() {
     return "FUNKY!"
-  }
+  //}
 }
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
